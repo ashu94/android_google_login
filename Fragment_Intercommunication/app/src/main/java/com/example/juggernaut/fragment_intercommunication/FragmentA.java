@@ -15,6 +15,17 @@ public class FragmentA extends Fragment implements View.OnClickListener {
     int counter = 0;
     Button button;
     Communicator communicator;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (savedInstanceState == null){
+            counter = 0;
+        }else {
+            counter = savedInstanceState.getInt("counter",0);
+        }
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_a,container,false);
@@ -32,5 +43,11 @@ public class FragmentA extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         counter++;
         communicator.respond("the button was clicked "+counter+" times");
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("counter",counter);
     }
 }
