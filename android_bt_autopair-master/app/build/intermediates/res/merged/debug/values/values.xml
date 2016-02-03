@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="whitegrey">#FFF2F2F2</color>
+    <string name="app_name">BTAutoPair</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">connect</string>
+    <string name="connected">Connected</string>
+    <string name="device">Device:</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnected">Not connected</string>
+    <string name="no_device">&lt;Select a device></string>
+    <string name="pair">pair</string>
+    <string name="paired">paired</string>
+    <string name="ready">Ready</string>
+    <string name="scan">Scan</string>
+    <string name="select_device">Select a device</string>
+    <string name="status">Status</string>
+    <string name="unpair">unpair</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="DialogLight" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/whitegrey</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

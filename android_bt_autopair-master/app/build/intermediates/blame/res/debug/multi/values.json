@@ -1,0 +1,389 @@
+[
+    {
+        "outputFile": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 217,
+                        "endColumn": 41,
+                        "endOffset": 254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 45,
+                    "endOffset": 138
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 259,
+                        "endColumn": 45,
+                        "endOffset": 300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 143,
+                    "endColumn": 47,
+                    "endOffset": 186
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 191,
+                    "endColumn": 41,
+                    "endOffset": 228
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 707,
+                        "endColumn": 41,
+                        "endOffset": 744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 233,
+                    "endColumn": 43,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 503,
+                        "endColumn": 43,
+                        "endOffset": 542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endColumn": 47,
+                    "endOffset": 320
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 47,
+                        "endOffset": 353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 325,
+                    "endColumn": 42,
+                    "endOffset": 363
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 42,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 368,
+                    "endColumn": 49,
+                    "endOffset": 413
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 453,
+                        "endColumn": 49,
+                        "endOffset": 498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 418,
+                    "endColumn": 54,
+                    "endOffset": 468
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 358,
+                        "endColumn": 54,
+                        "endOffset": 408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 473,
+                    "endColumn": 58,
+                    "endOffset": 527
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 61,
+                        "endOffset": 204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 532,
+                    "endColumn": 37,
+                    "endOffset": 565
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 589,
+                        "endColumn": 37,
+                        "endOffset": 622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 570,
+                    "endColumn": 41,
+                    "endOffset": 607
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 627,
+                        "endColumn": 41,
+                        "endOffset": 664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 612,
+                    "endColumn": 39,
+                    "endOffset": 647
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 413,
+                        "endColumn": 39,
+                        "endOffset": 448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 652,
+                    "endColumn": 37,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 669,
+                        "endColumn": 37,
+                        "endOffset": 702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 57,
+                    "endOffset": 743
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 57,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 748,
+                    "endColumn": 41,
+                    "endOffset": 785
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 41,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 790,
+                    "endColumn": 41,
+                    "endOffset": 827
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 547,
+                        "endColumn": 41,
+                        "endOffset": 584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 832,
+                    "endColumn": 61,
+                    "endOffset": 889
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 68,
+                        "endOffset": 120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 894,
+                    "endColumn": 50,
+                    "endOffset": 940
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 158,
+                        "endColumn": 57,
+                        "endOffset": 211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 945,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1150
+                },
+                "from": {
+                    "file": "/home/juggernaut/git/android_tutorial/android_bt_autopair-master/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 466,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 671
+                    }
+                }
+            }
+        ]
+    }
+]
