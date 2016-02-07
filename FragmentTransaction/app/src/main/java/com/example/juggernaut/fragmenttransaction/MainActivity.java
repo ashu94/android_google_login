@@ -71,6 +71,20 @@ public class MainActivity extends AppCompatActivity {
     public void attachA (View view){
         FragmentA fragmentA = (FragmentA) manager.findFragmentByTag("A");
         FragmentTransaction transaction = manager.beginTransaction();
-        
+        if (fragmentA != null){
+            transaction.attach(fragmentA);
+            transaction.commit();
+        }
+
+    }
+
+    public void detachA (View view){
+        FragmentA fragmentA = (FragmentA) manager.findFragmentByTag("A");
+        FragmentTransaction transaction = manager.beginTransaction();
+        if (fragmentA != null){
+            transaction.detach(fragmentA);
+            transaction.commit();
+        }
+
     }
 }
