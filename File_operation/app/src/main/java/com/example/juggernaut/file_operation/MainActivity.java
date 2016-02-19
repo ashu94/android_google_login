@@ -21,6 +21,12 @@ public class MainActivity extends AppCompatActivity {
             chooser = Intent.createChooser(intent,"select app");
             startActivity(chooser);
         }
+        if (view.getId() == R.id.launch_market){
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse("market://details?id=dolphin.developers.com"));
+            chooser = Intent.createChooser(intent,"select market");
+            startActivity(chooser);
+        }
 
     }
 }
