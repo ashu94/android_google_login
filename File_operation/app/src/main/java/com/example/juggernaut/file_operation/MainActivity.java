@@ -28,5 +28,17 @@ public class MainActivity extends AppCompatActivity {
             startActivity(chooser);
         }
 
+        if (view.getId() == R.id.email) {
+            intent = new Intent(Intent.ACTION_SEND);
+            intent.setData(Uri.parse("mailto:"));
+            String to[] = {"me@ashutoshksingh.com", "test@test.com"};
+            intent.putExtra(Intent.EXTRA_EMAIL, to);
+            intent.putExtra(Intent.EXTRA_SUBJECT, "subject");
+            intent.putExtra(Intent.EXTRA_TEXT, "anoteh");
+            intent.setType("message/rfc822");
+            chooser = intent.createChooser(intent,"send email");
+            startActivity(chooser);
+        }
+
     }
 }

@@ -28,16 +28,17 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button3"
-        android:layout_below="@+id/launch_market" />
+        android:text="E-mail"
+        android:id="@+id/email"
+        android:layout_below="@+id/launch_market"
+        android:layout_alignLeft="@+id/launch_market" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Button"
         android:id="@+id/button4"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/email"
         android:layout_centerHorizontal="true" />
 
     <Button
