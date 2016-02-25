@@ -2,9 +2,13 @@ package com.example.juggernaut.file_operation;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import java.io.File;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,5 +44,30 @@ public class MainActivity extends AppCompatActivity {
             startActivity(chooser);
         }
 
+        if (view.getId() == R.id.send_image){
+            Uri image = Uri.parse("android.resource://com.example.juggernaut.file_operation/drawable/"+R.mipmap.ic_launcher);
+            intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("image/*");
+            intent.putExtra(Intent.EXTRA_STREAM, image);
+            intent.putExtra(Intent.EXTRA_TEXT, "hello attachment");
+            chooser = Intent.createChooser(intent,"send image");
+            startActivity(chooser);
+        }
+
+        if (view.getId() == R.id.send_images){
+            File pictures = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+            String [] listofpicture = pictures.list();
+            Uri uri = null;
+            ArrayList<Uri> arrayList = new ArrayList<Uri>();
+            for (String picture : listofpicture){
+                uri = Uri.parse("file://"+pictures.toString()+"/"+picture);
+                arrayList.add(uri);
+            }
+            intent = new Intent(Intent.ACTION_SEND_MULTIPLE);
+            intent.setType("image/*");
+            intent.putExtra(Intent.EXTRA_STREAM,arrayList);
+            chooser = Intent.createChooser(intent,"send multiple images");
+            startActivity(chooser);
+        }
     }
 }
