@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity {
 
     EditText username,password;
@@ -18,6 +22,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void save (View view){
+        String text = username.getText().toString();
+        String text2 = password.getText().toString();
+        String text1 = text + " ";
+        FileOutputStream fileOutputStream = null;
+        try {
+            fileOutputStream = openFileOutput("juggernaut.txt",MODE_PRIVATE);
+            fileOutputStream.write(text1.getBytes());
+            fileOutputStream.write(text2.getBytes());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        finally {
+            try {
+                fileOutputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
     }
 
