@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
             Message.Message("successfull",this);
         }
     }
+
+    public void viewAll(View view){
+        String data = helper.loadData();
+        Message.Message(data,this);
+    }
 }

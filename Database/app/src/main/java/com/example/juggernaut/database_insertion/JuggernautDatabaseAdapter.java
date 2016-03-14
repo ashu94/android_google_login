@@ -2,6 +2,7 @@ package com.example.juggernaut.database_insertion;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -24,6 +25,21 @@ public class JuggernautDatabaseAdapter {
         contentValues.put(JuggernautHelper.PASSWORD, password);
         long id = database.insert(JuggernautHelper.TABLE_NAME,null,contentValues);
         return id;
+    }
+
+    public String loadData(){
+        StringBuffer buffer = new StringBuffer();
+        SQLiteDatabase db = helper.getWritableDatabase();
+        String[] coloumns = {JuggernautHelper.UID,JuggernautHelper.NAME,JuggernautHelper.PASSWORD};
+        Cursor cursor = db.query(JuggernautHelper.TABLE_NAME, coloumns, null, null, null, null, null);
+        while (cursor.moveToNext()){
+            int cid = cursor.getInt(cursor.getColumnIndex(JuggernautHelper.UID));
+            String name = cursor.getString(cursor.getColumnIndex(JuggernautHelper.NAME));
+            String password = cursor.getString(cursor.getColumnIndex(JuggernautHelper.PASSWORD));
+            buffer.append(cid+" "+name+" "+password+"\n");
+        }
+
+        return buffer.toString();
     }
 
     static class JuggernautHelper extends SQLiteOpenHelper {
