@@ -35,10 +35,25 @@ public class JuggernautDatabaseAdapter {
         while (cursor.moveToNext()){
             int cid = cursor.getInt(cursor.getColumnIndex(JuggernautHelper.UID));
             String name = cursor.getString(cursor.getColumnIndex(JuggernautHelper.NAME));
+
             String password = cursor.getString(cursor.getColumnIndex(JuggernautHelper.PASSWORD));
             buffer.append(cid+" "+name+" "+password+"\n");
         }
 
+        return buffer.toString();
+    }
+
+    public String getData(String user){
+
+        StringBuffer buffer = new StringBuffer();
+        SQLiteDatabase db = helper.getWritableDatabase();
+        String[] coloumns = {JuggernautHelper.NAME,JuggernautHelper.PASSWORD};
+        Cursor cursor = db.query(JuggernautHelper.TABLE_NAME, coloumns, JuggernautHelper.NAME+" = '"+user+"'", null, null, null, null);
+        while (cursor.moveToNext()){
+            String name = cursor.getString(cursor.getColumnIndex(JuggernautHelper.NAME));
+            String password = cursor.getString(cursor.getColumnIndex(JuggernautHelper.PASSWORD));
+            buffer.append(name+" "+password+"\n");
+        }
         return buffer.toString();
     }
 

@@ -66,4 +66,26 @@
         android:onClick="addUser"
         android:layout_centerHorizontal="true" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_get_detail"
+        android:layout_below="@+id/bt_addUser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Detail"
+        android:id="@+id/bt_get_detail"
+        android:onClick="getDetail"
+        android:layout_below="@+id/et_get_detail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/et_get_detail"
+        android:layout_alignEnd="@+id/et_get_detail" />
+
 </RelativeLayout>

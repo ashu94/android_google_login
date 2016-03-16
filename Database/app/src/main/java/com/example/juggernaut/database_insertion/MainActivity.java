@@ -4,10 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText username, password;
+    EditText username, password, get_Detail;
     JuggernautDatabaseAdapter helper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         username = (EditText) findViewById(R.id.editText);
         password = (EditText) findViewById(R.id.editText2);
+        get_Detail = (EditText) findViewById(R.id.et_get_detail);
         helper = new JuggernautDatabaseAdapter(this);
     }
 
@@ -33,4 +35,11 @@ public class MainActivity extends AppCompatActivity {
         String data = helper.loadData();
         Message.Message(data,this);
     }
+
+    public void getDetail(View view){
+
+        String search = get_Detail.getText().toString();
+        Toast.makeText(this,helper.getData(search),Toast.LENGTH_LONG).show();
+    }
+
 }
